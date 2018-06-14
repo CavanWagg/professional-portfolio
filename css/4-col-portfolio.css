@@ -47,9 +47,9 @@ body {
 }
 
 .btn-2 {
-	background: #cb4e4e;
+	background: #fff;
 	color: #fff;
-	box-shadow: 0 6px #ab3c3c;
+	box-shadow: 0 6px #fff;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -62,12 +62,12 @@ body {
 }
 
 .btn-2i:hover {
-	box-shadow: 0 4px #ab3c3c;
+	box-shadow: 0 4px #fec524;
 	top: 2px;
 }
 
 .btn-2i:active {
-	box-shadow: 0 0 #ab3c3c;
+	box-shadow: 0 0 #fec524;
 	top: 6px;
 }
 
