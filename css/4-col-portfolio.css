@@ -78,3 +78,31 @@ body {
 .pagination {
   margin-bottom: 30px;
 }
+.img__wrap {
+  position: relative;
+  height: 100px;
+	width: 100px;
+	margin-right: 50px;  
+	margin-bottom: 20px
+}
+
+.img__description {
+	position: absolute;
+	top: 20px;
+	left: -25px;
+  background: #343a40;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+h3 {
+	color: #4F2683
+}
