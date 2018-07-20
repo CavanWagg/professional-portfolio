@@ -36,6 +36,13 @@ body {
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
+.profile-photo {
+	-webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+	clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+	margin-right: 2em;
+	height: 100px;
+	width: 100px;
+}
 
 .btn:after {
 	content: '';
