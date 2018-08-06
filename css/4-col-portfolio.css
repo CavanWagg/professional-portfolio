@@ -5,72 +5,87 @@
  */
 body {
   padding-top: 130px;
-  background-image: url("images/vintage-leaves.png");
+  background-image: url('images/vintage-leaves.png');
 }
-
 
 .name {
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 .btn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .profile-photo {
-	-webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-	clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
-	margin-right: 2em;
-	height: 100px;
-	width: 100px;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  margin-right: 2em;
+  height: 100px;
+  width: 100px;
 }
 
 .btn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .btn-2 {
-	background: #fff;
-	color: #fff;
-	box-shadow: 0 6px #fff;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
+  background: #fff;
+  color: #fff;
+  box-shadow: 0 6px #fff;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
 }
 .btn-2i {
-	border-radius: 50%;
-	width: 90px;
-	height: 90px;
-	padding: 0;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  padding: 0;
 }
 
 .btn-2i:hover {
-	box-shadow: 0 4px #fec524;
-	top: 2px;
+  box-shadow: 0 4px #fec524;
+  top: 2px;
 }
 
 .btn-2i:active {
-	box-shadow: 0 0 #fec524;
-	top: 6px;
+  box-shadow: 0 0 #fec524;
+  top: 6px;
 }
 
 .portfolio-item {
@@ -83,22 +98,22 @@ body {
 .img__wrap {
   position: relative;
   height: 100px;
-	width: 100px;
-	margin-right: 50px;  
-	margin-bottom: 20px
+  width: 100px;
+  margin-right: 50px;
+  margin-bottom: 20px;
 }
 
 .img__description {
-	position: absolute;
-	top: 20px;
-	left: -25px;
+  position: absolute;
+  top: 20px;
+  left: -25px;
   background: #343a40;
   color: #fff;
   visibility: hidden;
   opacity: 0;
 
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  transition: opacity 0.2s, visibility 0.2s;
 }
 
 .img__wrap:hover .img__description {
@@ -106,18 +121,20 @@ body {
   opacity: 1;
 }
 h3 {
-	color: #4F2683
+  color: #4f2683;
+}
+.py-5 {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 489px) {
   .profile-photo {
-		/* display: none; */
-		height: 60px;
-		width: 60px;
-	}
-	.img__description {
-		visibility: visible;
-	
-	}
-	
+    /* display: none; */
+    height: 60px;
+    width: 60px;
+  }
+  .img__description {
+    visibility: visible;
+  }
 }
